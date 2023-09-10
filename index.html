@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    
+      h1{
+      margin:0;
+      padding: 0;
+      position: absolute;
+      top:50%;
+      transform: translateY(-50%);
+      width:50%;
+      color:lightcoral;
+      text-align: center;
+      font-size: 30px;
+      font-family: sans-serif;
+      letter-spacing: 0.1em;
+  }
+  
+  body{
+      padding: 0px;
+      margin:0px;
+  }
+  section {
+    height:100vh;
+    background :lightblue;
+  }
+
+   h1 span{
+   display: inline-block;
+   animation: animate 1s linear forwards;
+  }
+@keyframes animate {
+    0%
+    {
+        opacity:0;
+        transform: rotateY(90deg);
+        filter :blur(10px);
+    }
+
+    100%{
+        opacity :1;
+        transform: rotateY(0deg);
+    }
+}
+</style>  
+</head>
+<body>
+  <div>
+    <div class="child">
+      <table align="right" border="0">
+          <tr height="40">
+            <td width="60%">
+               <b style id="aa"><a href="index.html">HOME</a></b>&nbsp;&nbsp;&nbsp;
+               <b style id="aa"><a href="A.html">CONTACT US</a></b>&nbsp;&nbsp;&nbsp;&nbsp;
+               <b style id="aa"><a href="B.html">INTRO</a></b>&nbsp;&nbsp;&nbsp;&nbsp;
+               <b style id="aa"><a href="C.html">SKILLS</a></b>  
+             </td>
+          </tr>
+     </table>
+     <div>
+      <h1>
+            <span>I</span>
+            <span>A</span>
+            <span>M</span>
+            <span>  </span>
+            <span>R</span>
+            <span>I</span>
+            <span>S</span>
+            <span>H</span>
+            <span>I</span>
+            <span>T</span>
+            <span>A</span>
+              <br>
+            <span>J</span>
+            <span>A</span>
+            <span>I</span>
+            <span>S</span>
+            <span>W</span>
+            <span>A</span>
+            <span>L</span>
+      </h1>
+     </div>    
+    </div>         
+</div>      
+ </body>
+</html>
